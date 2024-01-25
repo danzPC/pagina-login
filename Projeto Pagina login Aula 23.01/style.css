@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+	background-color: #2148C0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.div_img_fundo{
+    width: 100%;
+}
+
+.img {
+    position: relative;
+   float: right;
+   width: 65%;
+   height: 40%;
+   z-index: 0;
+}
+
+.estrutura_geral{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    width: 400px;
+    height: 750px;
+    padding-left: 800px;
+}
+
+.circle{
+    position: absolute;
+    top: -500;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #264ECA;
+    clip-path: circle(50% at bottom left);
+    z-index: 50;
+}
+
+.circle1{
+    position: absolute;
+    top: -700;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #244BC5;
+    clip-path: circle(50% at bottom left);
+    z-index: 50;
+}
+
+.circle2{
+    position: absolute;
+    top: -700;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #274FC7;
+    clip-path: circle(48% at bottom left);
+    z-index: 50;
+}
+
+
+.carrinho_principal{
+    position: absolute;
+    display: flex;
+    float: right;
+    z-index: 10;
+    top: 260px;
+}
+
+
+.login-painel{
+    display: flex;
+}
+
+.div_button{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 175px;  
+
+
+}
+
+input::placeholder{
+    color: white;
+}
+
+.div_button input[type="text"] {
+	width: 146%;
+    height: 33px;
+	padding: 9px;
+    padding-left: 50px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+	margin-top: 85px;
+    display: flex;
+    background: transparent;
+    font-weight: 300;
+
+
+}
+
+.div_button .login_user{
+    position: relative;
+    bottom: 38px;
+    left: 13px;
+}
+
+
+.div_button input[type="password"] {
+    width: 146%;
+    height: 33px;
+	padding: 9px;
+    padding-left: 50px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    display: flex;
+    background: transparent;
+    font-weight: 300;
+}
+
+
+.div_button .login_lock{
+    position: relative;
+    bottom: 38px;
+    left: 13px;
+}
+
+.div_button input[type=submit]{
+    width: 174%;
+    height: 50px;
+	padding: 7px;
+    padding-left: 150px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    display: flex;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2148C0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+
+
+.div_text{
+    position: relative;
+    top: 320px;
+    left: 115px;
+    color: white;
+    font-weight: 500;
+}
+
